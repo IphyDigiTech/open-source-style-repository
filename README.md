@@ -1,10 +1,20 @@
-# Open Source Style Repository
+Open Source Style Repository
 
 A professional GitHub repository demonstrating how a development team can organize and manage an open-source-style project.
 
-## Project Overview
+Project Workflow
 
-This project demonstrates:
+The repository follows a simple development workflow:
+
+Issue → Feature Branch → Code Changes → Pull Request → Review → Main Branch → Documentation
+
+«Project workflow diagram will be added here.»
+
+Project Overview
+
+This project demonstrates how a development team can use Git and GitHub to organize collaborative development.
+
+It includes:
 
 - Git branches and workflow
 - GitHub Issues
@@ -13,40 +23,59 @@ This project demonstrates:
 - Pull Request templates
 - Project documentation
 
-## Project Structure
+"Repository Overview" (screenshots/repository-overview.png)
 
-```text
-.github/
-├── ISSUE_TEMPLATE/
-│   ├── bug_report.md
-│   └── feature_request.md
-└── PULL_REQUEST_TEMPLATE.md
+GitHub Issue Templates
 
-docs/
-└── contributing.md
+The repository includes templates for reporting bugs and requesting new features.
 
-screenshots/
-README.md
-.gitignore
+"Issue Template" (screenshots/issue-template.png)
 
-## Development Workflow
+Branch Workflow
 
-Contributors should create a branch, make their changes, test them, and open a Pull Request for review.
+A feature branch was created to make documentation changes without directly modifying the main branch.
+
+"Branch Workflow" (screenshots/branch-workflow.png)
+
+Pull Requests
+
+Changes are submitted through Pull Requests so they can be reviewed before being merged into the main branch.
+
+"Pull Request Template" (screenshots/pull-request-template.png)
+
+Project Documentation
+
+The repository includes a contributing guide explaining how contributors can create branches, make changes, test their work, and submit Pull Requests.
+
+"Project Documentation" (screenshots/project-documentation.png)
+
+Project Structure
+
+open-source-style-repository/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── PULL_REQUEST_TEMPLATE.md
+├── docs/
+│   └── contributing.md
+├── screenshots/
+│   ├── repository-overview.png
+│   ├── issue-template.png
+│   ├── branch-workflow.png
+│   ├── pull-request-template.png
+│   └── project-documentation.png
+├── README.md
+└── .gitignore
 
 Contribution
 
-See the Contributing Guide for information about contributing to this project.
+See the "Contributing Guide" (docs/contributing.md) for information about contributing to this project.
 
-Workflow
+Development Workflow
 
-The project follows a simple workflow:
-
-Issue → Branch → Changes → Pull Request → Review → Merge
+Contributors should create a branch, make their changes, test them, and open a Pull Request for review.
 
 License
 
-This project is created for learning purposes.
-
-## Development Notes
-
-This repository uses branches and Pull Requests to organize changes before they are merged into the main branch.
+This project is created for learning and portfolio purposes.

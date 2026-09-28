@@ -29,6 +29,10 @@ screenshots/
 README.md
 .gitignore
 
+## Development Workflow
+
+Contributors should create a branch, make their changes, test them, and open a Pull Request for review.
+
 Contribution
 
 See the Contributing Guide for information about contributing to this project.
@@ -42,3 +46,7 @@ Issue → Branch → Changes → Pull Request → Review → Merge
 License
 
 This project is created for learning purposes.
+
+## Development Notes
+
+This repository uses branches and Pull Requests to organize changes before they are merged into the main branch.

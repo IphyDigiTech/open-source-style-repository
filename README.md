@@ -46,3 +46,7 @@ Issue → Branch → Changes → Pull Request → Review → Merge
 License
 
 This project is created for learning purposes.
+
+## Development Notes
+
+This repository uses branches and Pull Requests to organize changes before they are merged into the main branch.

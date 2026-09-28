@@ -29,6 +29,10 @@ screenshots/
 README.md
 .gitignore
 
+## Development Workflow
+
+Contributors should create a branch, make their changes, test them, and open a Pull Request for review.
+
 Contribution
 
 See the Contributing Guide for information about contributing to this project.
